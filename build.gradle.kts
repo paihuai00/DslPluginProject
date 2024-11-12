@@ -14,7 +14,7 @@ task("CheckDuplicateTask", type = com.csx.plugin.CheckDuplicateTask::class){
 }
 
 
-tasks.register<com.csx.plugin.ConvertPngToWebpTask>("convertPngToWebp") {
+tasks.register<com.csx.plugin.ConvertImageToWebpTask>("convertPngToWebp") {
     quality = 0.75f // 设置转换质量
     // 可选：自定义输入输出目录
     sourceDir = rootProject.project("app").file("src/main/res")

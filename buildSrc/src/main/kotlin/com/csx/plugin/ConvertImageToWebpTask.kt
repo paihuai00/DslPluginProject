@@ -18,7 +18,7 @@ import kotlin.math.pow
  * Date  : 2024/11/9
  */
 
-abstract class ConvertPngToWebpTask : DefaultTask() {
+abstract class ConvertImageToWebpTask : DefaultTask() {
     @get:Input
     var quality: Float = 0.75f  // 0.0f - 1.0f
 

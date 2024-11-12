@@ -4,11 +4,21 @@ plugins {
 }
 
 repositories {
-    mavenCentral() // 添加所需的 Maven 仓库
+    maven {
+        url = uri("https://maven.aliyun.com/repository/gradle-plugin") // 阿里云 Gradle 插件镜像
+    }
+    maven("https://maven.aliyun.com/repository/google")
+    maven("https://maven.aliyun.com/repository/public")
+    maven("https://maven.aliyun.com/repository/central")
+    mavenCentral()
 }
 
 dependencies {
+    // 添加 XMLUnit 依赖
+    implementation("org.xmlunit:xmlunit-core:2.9.0")
 
+
+    implementation("org.sejda.imageio:webp-imageio:0.1.6")
 }
 
 gradlePlugin{
