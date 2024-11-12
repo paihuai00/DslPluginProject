@@ -1,1 +1,0 @@
-/Users/xiguahong/StudioProjects/DslPluginProject/buildSrc/build/classes/kotlin/main/com/csx/plugin/SimpleGradlePlugin.class
