@@ -6,7 +6,7 @@ plugins {
 
 }
 repositories {
-    mavenCentral() // 添加所需的 Maven 仓库
+//    mavenCentral() // 添加所需的 Maven 仓库
 }
 
 
@@ -38,7 +38,7 @@ publishing {
 
             groupId = "com.github.paihuai00"
             artifactId = "csx_gradle_plugin"
-            version = "1.0.1"
+            version = "1.0.2"
 
             // 可选：添加其他元数据
 //            pom {
@@ -65,6 +65,14 @@ publishing {
 //                    url.set("https://github.com/你的GitHub用户名/你的仓库名")
 //                }
 //            }
+        }
+
+
+        repositories {
+            maven {
+                // 生成的插件位置
+                url = uri("../repo")
+            }
         }
     }
 
