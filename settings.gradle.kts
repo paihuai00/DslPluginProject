@@ -22,6 +22,8 @@ buildscript {
         mavenCentral()
     }
     dependencies {
+//        classpath("com.android.tools.build:gradle:7.0.0")
+
 //        classpath("com.github.paihuai00:DslPluginProject:1.0.2")
     }
 }
