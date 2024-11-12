@@ -10,6 +10,7 @@ repositories {
 }
 
 
+
 gradlePlugin{
     plugins{
         // create("simplePlugin") 表示创建一个名为 "simplePlugin" 的插件配置。
@@ -38,7 +39,7 @@ publishing {
 
             groupId = "com.github.paihuai00"
             artifactId = "csx_gradle_plugin"
-            version = "1.0.2"
+            version = "1.0.3"
 
             // 可选：添加其他元数据
 //            pom {

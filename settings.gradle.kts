@@ -21,9 +21,9 @@ buildscript {
         google()
         mavenCentral()
     }
-//    dependencies {
-//        classpath("com.github.paihuai00:DslPluginProject:1.0.1")
-//    }
+    dependencies {
+        classpath("com.github.paihuai00:DslPluginProject:1.0.2")
+    }
 }
 
 rootProject.name = "DslPluginProject"
