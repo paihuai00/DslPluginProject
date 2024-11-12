@@ -22,7 +22,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath("com.github.paihuai00:DslPluginProject:1.0.2")
+//        classpath("com.github.paihuai00:DslPluginProject:1.0.2")
     }
 }
 
