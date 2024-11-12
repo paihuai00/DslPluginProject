@@ -24,11 +24,9 @@ buildscript {
     dependencies {
 //        classpath("com.android.tools.build:gradle:7.0.0")
 
-//        classpath("com.github.paihuai00:DslPluginProject:1.0.2")
     }
 }
 
 rootProject.name = "DslPluginProject"
 include(":app")
-//includeBuild("myPlugin")
-include(":myPlugin")
+
