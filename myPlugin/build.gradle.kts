@@ -38,7 +38,7 @@ publishing {
 
             groupId = "com.github.paihuai00"
             artifactId = "csx_gradle_plugin"
-            version = "1.0.0"
+            version = "1.0.1"
 
             // 可选：添加其他元数据
 //            pom {
