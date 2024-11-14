@@ -22,4 +22,20 @@ tasks.register<com.csx.plugin.ConvertImageToWebpTask>("convertPngToWebp") {
     minSizeKB = 50  // 只转换大于 50KB 的图片
 
     shouldDeleteOriginal = true // 是否删除原 png 文件
+
+    // 有损、无损压缩（默认无损）
+    compressionMode = com.csx.plugin.CompressionMode.LOSSLESS
+
+    // 白名单配置
+//    whitelistFiles = setOf(
+//        "logo.png",                  // 完整文件名匹配
+//        "app_icon.png",
+//        "splash_screen.png"
+//    )
+//
+//    whitelistPatterns = setOf(
+//        "ic_*_logo.png",
+//        "banner_*.png",
+//        "*_dont_convert.png"
+//    )
 }
