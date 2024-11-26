@@ -13,6 +13,10 @@ task("CheckDuplicateTask", type = com.csx.plugin.CheckDuplicateTask::class){
 
 }
 
+task("ImageAlphaCheckTask", type = com.csx.plugin.ImageAlphaCheckTask::class){
+
+}
+
 
 tasks.register<com.csx.plugin.ConvertImageToWebpTask>("convertPngToWebp") {
     quality = 0.75f // 设置转换质量
